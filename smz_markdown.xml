@@ -11,7 +11,7 @@
 	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
 	<authorEmail>smz@smz.it</authorEmail>
 	<authorUrl>http://smz.it</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>Markdown filter plugin for Joomla</description>
 	<files>
 		<filename plugin="smz_markdown">smz_markdown.php</filename>
