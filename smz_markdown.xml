@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension version="3.0" type="plugin" group="content" method="upgrade">
+<extension
+		version="3.0"
+		type="plugin"
+		group="content"
+		method="upgrade">
+	<name>Content - SMZ Markdown</name>
 	<author>Sergio Manzi</author>
+	<creationDate>November 2014</creationDate>
+	<copyright>Sergio Manzi</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
 	<authorEmail>smz@smz.it</authorEmail>
 	<authorUrl>http://smz.it</authorUrl>
-	<copyright>Copyright (C) 2014 - 2016 Sergio Manzi. All rights reserved.</copyright>
-	<license>GNU General Public License version 3 or (at your option) any later version.</license>
-	<name>Content - SMZ Markdown</name>
-	<description>Markdown filter plugin for Joomla using the erusev/parsedown-extra library</description>
-	<version>2.0.0</version>
-	<creationDate>July 2016</creationDate>
+	<version>1.0.1</version>
+	<description>Markdown filter plugin for Joomla</description>
 	<files>
 		<filename plugin="smz_markdown">smz_markdown.php</filename>
 		<folder>classes</folder>
@@ -17,12 +21,21 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="smz_markdown_categories" type="category" extension="com_content" multiple="true" show_root="true" required="false" label="SMZ_MARKDOWN_CATEGORIES" description="SMZ_MARKDOWN_CATEGORIES_DESC" />
-				<field name="smz_markdown_com_search" type="radio" class="btn-group" default="0" label="SMZ_MARKDOWN_COM_SEARCH" description="SMZ_MARKDOWN_COM_SEARCH_DESC">
+				<field 
+					name="smz_markdown_categories"
+					type="category"
+					extension="com_content"
+					multiple="true"
+					show_root="true"
+					required="false"
+					label="SMZ_MARKDOWN_CATEGORIES"
+					description="SMZ_MARKDOWN_CATEGORIES_DESC"
+				/>
+				<field name="smz_markdown_filter_com_search" type="radio" class="btn-group" default="0" label="SMZ_MARKDOWN_FILTER_COM_SEARCH" description="SMZ_MARKDOWN_FILTER_COM_SEARCH_DESC">
 					<option value="0">JNO</option>
 					<option value="1">JYES</option>
 				</field>
-				<field name="smz_markdown_mod_custom" type="radio" class="btn-group" default="0" label="SMZ_MARKDOWN_MOD_CUSTOM" description="SMZ_MARKDOWN_MOD_CUSTOM_DESC">
+				<field name="smz_markdown_filter_mod_custom" type="radio" class="btn-group" default="0" label="SMZ_MARKDOWN_FILTER_MOD_CUSTOM" description="SMZ_MARKDOWN_FILTER_MOD_CUSTOM_DESC">
 					<option value="0">JNO</option>
 					<option value="1">JYES</option>
 				</field>
