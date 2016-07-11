@@ -10,7 +10,7 @@
 	<version>2.0.0</version>
 	<creationDate>July 2016</creationDate>
 	<files>
-		<filename plugin="smz_markdown">smz_markdown.php</filename>
+		<file plugin="smz_markdown">smz_markdown.php</file>
 		<folder>classes</folder>
 		<folder>language</folder>
 	</files>
